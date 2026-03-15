@@ -1,0 +1,149 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g27bg" x1="0" y1="0" x2="0" y2="1080">
+    <stop offset="0%" stop-color="#080808"/>
+    <stop offset="100%" stop-color="#111"/>
+  </linearGradient>
+  <filter id="glow27"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow27sm"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="g27glow" cx="0.5" cy="0.35" r="0.4">
+    <stop offset="0%" stop-color="#F0C844" stop-opacity="0.05"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect width="1080" height="1080" fill="url(#g27bg)"/>
+<rect width="1080" height="1080" fill="url(#g27glow)"/>
+
+<!-- Top accent -->
+<rect x="0" y="0" width="1080" height="4" fill="#F0C844"/>
+
+<!-- ═══ FULL ATHLETE DASHBOARD ═══ -->
+<rect x="80" y="80" width="920" height="520" rx="12" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="1"/>
+
+<!-- Dashboard header -->
+<rect x="80" y="80" width="920" height="50" rx="12" fill="#0e0e0e"/>
+<rect x="80" y="118" width="920" height="12" fill="#0e0e0e"/>
+<text x="120" y="112" font-family="Montserrat, sans-serif" font-weight="700" font-size="14" fill="#F0C844" letter-spacing="2">ATHLETE BASELINE REPORT</text>
+<circle cx="940" cy="105" r="6" fill="#44CC66" opacity="0.6"/>
+<text x="920" y="110" font-family="Open Sans, sans-serif" font-weight="400" font-size="11" fill="#767676" text-anchor="end">LIVE</text>
+
+<!-- Left section: multi-joint angle data -->
+<rect x="110" y="155" width="400" height="410" rx="8" fill="#111" stroke="#1a1a1a" stroke-width="1"/>
+<text x="130" y="182" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" fill="#767676" letter-spacing="2">JOINT ANGLES</text>
+
+<!-- Data rows -->
+<g>
+  <!-- Row 1 -->
+  <rect x="130" y="200" width="360" height="44" rx="4" fill="#0e0e0e"/>
+  <text x="145" y="228" font-family="Open Sans, sans-serif" font-weight="400" font-size="12" fill="#a0a0a0">R Shoulder Abduction</text>
+  <text x="380" y="228" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#F0C844" text-anchor="end">96.4°</text>
+  <rect x="395" y="218" width="80" height="12" rx="6" fill="#1a1a1a"/>
+  <rect x="395" y="218" width="62" height="12" rx="6" fill="#F0C844" opacity="0.5"/>
+
+  <!-- Row 2 -->
+  <rect x="130" y="255" width="360" height="44" rx="4" fill="#0a0a0a"/>
+  <text x="145" y="283" font-family="Open Sans, sans-serif" font-weight="400" font-size="12" fill="#a0a0a0">L Shoulder Abduction</text>
+  <text x="380" y="283" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#F0C844" text-anchor="end">95.8°</text>
+  <rect x="395" y="273" width="80" height="12" rx="6" fill="#1a1a1a"/>
+  <rect x="395" y="273" width="60" height="12" rx="6" fill="#F0C844" opacity="0.5"/>
+
+  <!-- Row 3 -->
+  <rect x="130" y="310" width="360" height="44" rx="4" fill="#0e0e0e"/>
+  <text x="145" y="338" font-family="Open Sans, sans-serif" font-weight="400" font-size="12" fill="#a0a0a0">R Hip Flexion</text>
+  <text x="380" y="338" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#F0C844" text-anchor="end">28.3°</text>
+  <rect x="395" y="328" width="80" height="12" rx="6" fill="#1a1a1a"/>
+  <rect x="395" y="328" width="72" height="12" rx="6" fill="#F0C844" opacity="0.5"/>
+
+  <!-- Row 4 -->
+  <rect x="130" y="365" width="360" height="44" rx="4" fill="#0a0a0a"/>
+  <text x="145" y="393" font-family="Open Sans, sans-serif" font-weight="400" font-size="12" fill="#a0a0a0">L Hip Flexion</text>
+  <text x="380" y="393" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#F0C844" text-anchor="end">27.9°</text>
+  <rect x="395" y="383" width="80" height="12" rx="6" fill="#1a1a1a"/>
+  <rect x="395" y="383" width="70" height="12" rx="6" fill="#F0C844" opacity="0.5"/>
+
+  <!-- Row 5 -->
+  <rect x="130" y="420" width="360" height="44" rx="4" fill="#0e0e0e"/>
+  <text x="145" y="448" font-family="Open Sans, sans-serif" font-weight="400" font-size="12" fill="#a0a0a0">R Knee Extension</text>
+  <text x="380" y="448" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#F0C844" text-anchor="end">173.1°</text>
+  <rect x="395" y="438" width="80" height="12" rx="6" fill="#1a1a1a"/>
+  <rect x="395" y="438" width="76" height="12" rx="6" fill="#F0C844" opacity="0.5"/>
+
+  <!-- Row 6 -->
+  <rect x="130" y="475" width="360" height="44" rx="4" fill="#0a0a0a"/>
+  <text x="145" y="503" font-family="Open Sans, sans-serif" font-weight="400" font-size="12" fill="#a0a0a0">L Knee Extension</text>
+  <text x="380" y="503" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#F0C844" text-anchor="end">172.4°</text>
+  <rect x="395" y="493" width="80" height="12" rx="6" fill="#1a1a1a"/>
+  <rect x="395" y="493" width="74" height="12" rx="6" fill="#F0C844" opacity="0.5"/>
+</g>
+
+<!-- Right section: summary metrics -->
+<rect x="540" y="155" width="430" height="195" rx="8" fill="#111" stroke="#1a1a1a" stroke-width="1"/>
+<text x="560" y="182" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" fill="#767676" letter-spacing="2">SUMMARY</text>
+
+<!-- Big symmetry score -->
+<text x="660" y="290" font-family="Montserrat, sans-serif" font-weight="800" font-size="72" fill="#F0C844" text-anchor="middle" filter="url(#glow27)">94.2%</text>
+<text x="660" y="325" font-family="Open Sans, sans-serif" font-weight="400" font-size="14" fill="#767676" text-anchor="middle">Overall Symmetry Index</text>
+
+<!-- Baseline badge -->
+<rect x="810" y="220" width="130" height="44" rx="22" fill="rgba(240,200,68,0.08)" stroke="rgba(240,200,68,0.25)" stroke-width="1"/>
+<text x="875" y="247" font-family="Montserrat, sans-serif" font-weight="600" font-size="13" fill="#F0C844" text-anchor="middle" letter-spacing="1">ON TRACK</text>
+
+<!-- Trend graph bottom right -->
+<rect x="540" y="370" width="430" height="195" rx="8" fill="#111" stroke="#1a1a1a" stroke-width="1"/>
+<text x="560" y="397" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" fill="#767676" letter-spacing="2">BASELINE TREND (6 SESSIONS)</text>
+
+<!-- Trend line chart -->
+<g transform="translate(560, 410)">
+  <line x1="0" y1="120" x2="390" y2="120" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="0" y1="0" x2="0" y2="120" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Grid -->
+  <line x1="0" y1="40" x2="390" y2="40" stroke="#1a1a1a" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="0" y1="80" x2="390" y2="80" stroke="#1a1a1a" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <!-- Trend line -->
+  <polyline points="0,95 65,80 130,85 195,70 260,65 325,55 390,50" fill="none" stroke="#F0C844" stroke-width="2.5" filter="url(#glow27sm)"/>
+  <!-- Area fill -->
+  <polygon points="0,95 65,80 130,85 195,70 260,65 325,55 390,50 390,120 0,120" fill="#F0C844" opacity="0.04"/>
+  <!-- Data dots -->
+  <circle cx="0" cy="95" r="4" fill="#F0C844"/>
+  <circle cx="65" cy="80" r="4" fill="#F0C844"/>
+  <circle cx="130" cy="85" r="4" fill="#F0C844"/>
+  <circle cx="195" cy="70" r="4" fill="#F0C844"/>
+  <circle cx="260" cy="65" r="4" fill="#F0C844"/>
+  <circle cx="325" cy="55" r="4" fill="#F0C844"/>
+  <circle cx="390" cy="50" r="5" fill="#F0C844" filter="url(#glow27sm)"/>
+  <!-- Session labels -->
+  <text x="0" y="135" font-family="Open Sans, sans-serif" font-weight="400" font-size="9" fill="#555" text-anchor="middle">S1</text>
+  <text x="65" y="135" font-family="Open Sans, sans-serif" font-weight="400" font-size="9" fill="#555" text-anchor="middle">S2</text>
+  <text x="130" y="135" font-family="Open Sans, sans-serif" font-weight="400" font-size="9" fill="#555" text-anchor="middle">S3</text>
+  <text x="195" y="135" font-family="Open Sans, sans-serif" font-weight="400" font-size="9" fill="#555" text-anchor="middle">S4</text>
+  <text x="260" y="135" font-family="Open Sans, sans-serif" font-weight="400" font-size="9" fill="#555" text-anchor="middle">S5</text>
+  <text x="325" y="135" font-family="Open Sans, sans-serif" font-weight="400" font-size="9" fill="#555" text-anchor="middle">S6</text>
+</g>
+
+<!-- ═══ HEADLINE ═══ -->
+<text x="540" y="720" font-family="Montserrat, sans-serif" font-weight="800" font-size="72" fill="white" text-anchor="middle" letter-spacing="-1">Know Where</text>
+<text x="540" y="800" font-family="Montserrat, sans-serif" font-weight="800" font-size="72" fill="white" text-anchor="middle" letter-spacing="-1">Your Athletes</text>
+<text x="540" y="880" font-family="Montserrat, sans-serif" font-weight="800" font-size="72" fill="#F0C844" text-anchor="middle" letter-spacing="-1">Stand.</text>
+
+<text x="540" y="940" font-family="Open Sans, sans-serif" font-weight="400" font-size="21" fill="#a0a0a0" text-anchor="middle">Baseline. Monitor. Compare.</text>
+<text x="540" y="972" font-family="Open Sans, sans-serif" font-weight="400" font-size="21" fill="#a0a0a0" text-anchor="middle">Objective Data for Every Session.</text>
+
+<!-- Corner Logo (bottom-right) -->
+<g transform="translate(895, 1005) scale(0.035)" opacity="0.6">
+  <path d="M1304.26 276.59L1789.64 746.343C1811.06 767.612 1830.42 776.708 1854.89 776.708C1901.83 776.708 1934.43 741.26 1934.43 682.579V26.4865H1855.16C1815.02 26.4865 1782.5 58.7695 1782.5 98.6327V513.451L1297.12 50.7879C1274.71 29.5186 1256.34 21.4033 1232.9 21.4033C1183.95 21.4033 1153.36 56.8521 1153.36 114.551V766.542H1304.26V276.59Z" fill="#F0C844"/>
+  <path d="M1969.14 916.452C1934.47 916.452 1911.03 936.696 1892.66 967.061L1537.56 1552.61L1420.44 1435.83C1513.22 1399.36 1570.3 1315.35 1570.3 1194.87C1570.3 1027.79 1467.33 921.491 1293.98 921.491H58.2925V1001.26C58.2925 1044.42 93.5464 1079.43 137.019 1079.43H330.534V1657.49H489.603V1079.43H755.601V1657.49H913.683V1079.43H1294.02C1369.51 1079.43 1414.33 1120.94 1414.33 1198.88C1414.33 1276.83 1371.49 1322.4 1294.02 1322.4H1006.47V1457.06H1236.9L1417.39 1657.53H1654.42L1962.99 1139.18L2098.62 1365.96H1931.42L1859.03 1488.49H2172.05L2272.42 1657.58H2463.1L2045.63 967.106C2027.26 936.74 2003.81 916.497 1969.14 916.497V916.452Z" fill="#F0C844"/>
+  <path d="M387.03 769.173H700.273C916.557 769.173 1073.07 605.573 1073.07 389.804C1073.07 174.034 920.689 25.7734 700.273 25.7734H387.03C173.844 25.7734 17.3351 171.002 17.3351 389.804C17.3351 608.606 173.889 769.173 387.075 769.173H387.03ZM387.03 185.315H700.273C824.897 185.315 912.425 274.272 912.425 398.008C912.425 521.745 824.897 609.676 700.273 609.676H387.03C265.505 609.676 177.931 520.719 177.931 398.008C177.931 275.297 266.493 185.315 387.03 185.315Z" fill="#F0C844"/>
+  <path d="M3315.75 1504.68C3356.76 1443.37 3380.06 1368.01 3380.06 1284.85C3380.06 1069.08 3227.64 920.822 3007.27 920.822H2743.74C2530.56 920.822 2374 1066.01 2374 1284.85C2374 1503.7 2530.56 1664.22 2743.74 1664.22H3290.96C3357.25 1626.59 3411.1 1571.7 3448.06 1504.68H3315.75ZM3007.27 1504.68H2743.74C2622.22 1504.68 2534.64 1415.72 2534.64 1293.01C2534.64 1170.3 2623.21 1080.32 2743.74 1080.32H3007.27C3131.89 1080.32 3219.42 1169.28 3219.42 1293.01C3219.42 1416.75 3131.89 1504.68 3007.27 1504.68Z" fill="#F0C844"/>
+  <path d="M2253.11 404.473C2262.54 409.69 2269.95 417.003 2275.29 426.367C2280.64 435.731 2283.29 446.566 2283.29 458.873C2283.29 471.179 2280.64 482.059 2275.29 491.512C2269.95 500.965 2262.58 508.323 2253.11 513.54C2243.68 518.757 2232.99 521.387 2221.09 521.387C2211.97 521.387 2203.62 519.604 2196.03 516.081C2188.44 512.559 2182.19 507.386 2177.21 500.653V520.005H2155.83V348.959H2178.11V416.289C2183.05 409.824 2189.25 404.964 2196.7 401.664C2204.16 398.364 2212.24 396.715 2221.09 396.715C2232.99 396.715 2243.68 399.345 2253.11 404.562V404.473ZM2240.44 496.551C2246.73 492.939 2251.67 487.856 2255.31 481.346C2258.94 474.836 2260.74 467.345 2260.74 458.873C2260.74 450.401 2258.9 442.91 2255.31 436.399C2251.67 429.889 2246.73 424.851 2240.44 421.284C2234.15 417.761 2227.1 415.977 2219.2 415.977C2211.3 415.977 2204.42 417.761 2198.05 421.284C2191.72 424.806 2186.73 429.845 2183.18 436.399C2179.63 442.954 2177.84 450.445 2177.84 458.873C2177.84 467.3 2179.63 474.836 2183.18 481.346C2186.73 487.9 2191.67 492.939 2198.05 496.551C2204.38 500.163 2211.43 501.946 2219.2 501.946C2226.97 501.946 2234.15 500.163 2240.44 496.551Z" fill="#E1E1E1"/>
+  <path d="M2432.34 397.785L2372.66 532.179C2367.4 544.619 2361.25 553.403 2354.2 558.442C2347.15 563.525 2338.66 566.067 2328.78 566.067C2322.76 566.067 2316.88 565.086 2311.26 563.168C2305.61 561.251 2300.94 558.442 2297.21 554.741L2306.73 538.154C2313.06 544.129 2320.43 547.161 2328.78 547.161C2334.21 547.161 2338.7 545.734 2342.34 542.88C2345.98 540.026 2349.26 535.166 2352.22 528.255L2356.17 519.738L2301.83 397.785H2325.05L2368.03 495.526L2410.51 397.785H2432.34Z" fill="#E1E1E1"/>
+  <path d="M2335.92 772.115C2330.67 778.269 2324.56 782.95 2317.6 786.161C2310.64 789.371 2303.14 791.021 2295.05 791.021C2284.86 791.021 2275.29 788.613 2266.4 783.753C2257.51 778.893 2247.31 770.644 2235.86 758.961C2220.55 758.203 2206.72 754.101 2194.41 746.744C2182.1 739.386 2172.49 729.577 2165.62 717.359C2158.75 705.141 2155.29 691.586 2155.29 676.693C2155.29 661.8 2159.07 647.13 2166.57 634.511C2174.07 621.892 2184.4 612.038 2197.55 604.904C2210.71 597.769 2225.49 594.202 2241.92 594.202C2258.36 594.202 2272.87 597.769 2286.03 604.904C2299.18 612.038 2309.47 621.892 2316.92 634.422C2324.33 646.952 2328.06 661.042 2328.06 676.738C2328.06 689.936 2325.41 702.109 2320.07 713.168C2314.72 724.226 2307.22 733.545 2297.57 741.081C2287.91 748.616 2276.77 753.833 2264.24 756.776C2269.68 762.439 2274.89 766.586 2279.92 769.128C2284.95 771.669 2290.11 772.918 2295.37 772.918C2306.82 772.918 2316.74 768.325 2325.1 759.095L2336.01 772.249L2335.92 772.115ZM2186.73 708.396C2192.21 717.849 2199.8 725.251 2209.5 730.647C2219.16 736.042 2229.98 738.717 2241.88 738.717C2253.78 738.717 2264.33 736.042 2273.9 730.647C2283.51 725.251 2291.06 717.849 2296.53 708.396C2302.01 698.943 2304.8 688.376 2304.8 676.693C2304.8 665.011 2302.06 654.443 2296.53 644.99C2291.06 635.537 2283.51 628.135 2273.9 622.74C2264.29 617.344 2253.6 614.669 2241.88 614.669C2230.16 614.669 2219.16 617.344 2209.5 622.74C2199.84 628.135 2192.25 635.537 2186.73 644.99C2181.25 654.443 2178.47 665.011 2178.47 676.693C2178.47 688.376 2181.21 698.943 2186.73 708.396Z" fill="#E1E1E1"/>
+  <path d="M2389.54 740.769C2377.46 728.462 2371.44 710.805 2371.44 687.752V595.986H2394.66V686.816C2394.66 721.373 2409.89 738.673 2440.42 738.673C2455.29 738.673 2466.65 734.393 2474.56 725.876C2482.46 717.359 2486.41 704.339 2486.41 686.816V595.986H2508.96V687.752C2508.96 710.983 2502.94 728.685 2490.86 740.903C2478.78 753.12 2461.89 759.229 2440.24 759.229C2418.6 759.229 2401.71 753.076 2389.63 740.769H2389.54Z" fill="#E1E1E1"/>
+  <path d="M2669.33 717.003H2582.97L2565.09 757.356H2541.16L2614.76 595.986H2637.76L2711.59 757.356H2687.2L2669.33 717.003ZM2661.2 698.587L2626.12 619.53L2591.05 698.587H2661.15H2661.2Z" fill="#E1E1E1"/>
+  <path d="M2745 595.986H2768.22V737.291H2856.2V757.356H2745V595.986Z" fill="#E1E1E1"/>
+  <path d="M2892.21 595.986H2915.43V757.356H2892.21V595.986Z" fill="#E1E1E1"/>
+  <path d="M2985.44 753.566C2974.08 749.821 2965.15 744.916 2958.63 738.941L2967.21 720.971C2973.41 726.5 2981.36 731.004 2991.01 734.437C3000.67 737.915 3010.64 739.61 3020.83 739.61C3034.31 739.61 3044.37 737.336 3051.01 732.788C3057.66 728.239 3060.98 722.22 3060.98 714.684C3060.98 709.155 3059.14 704.651 3055.55 701.218C3051.91 697.74 3047.42 695.109 3042.08 693.281C3036.73 691.453 3029.19 689.357 3019.44 687.039C3007.23 684.14 2997.35 681.197 2989.85 678.299C2982.35 675.401 2975.92 670.897 2970.58 664.833C2965.24 658.769 2962.59 650.564 2962.59 640.264C2962.59 631.658 2964.88 623.9 2969.41 616.988C2973.99 610.077 2980.91 604.548 2990.21 600.401C2999.5 596.254 3011 594.158 3024.79 594.158C3034.4 594.158 3043.83 595.407 3053.12 597.859C3062.42 600.312 3070.37 603.834 3077.06 608.472L3069.38 626.932C3062.55 622.651 3055.28 619.351 3047.55 617.122C3039.83 614.892 3032.24 613.778 3024.79 613.778C3011.63 613.778 3001.75 616.186 2995.19 620.912C2988.59 625.683 2985.31 631.837 2985.31 639.372C2985.31 644.901 2987.15 649.405 2990.88 652.838C2994.61 656.316 2999.19 658.992 3004.71 660.909C3010.19 662.826 3017.69 664.877 3027.12 667.018C3039.34 669.916 3049.17 672.859 3056.63 675.757C3064.04 678.7 3070.46 683.115 3075.8 689.134C3081.15 695.109 3083.8 703.18 3083.8 713.346C3083.8 721.819 3081.46 729.533 3076.84 736.533C3072.21 743.534 3065.16 749.063 3055.68 753.121C3046.25 757.178 3034.62 759.229 3020.88 759.229C3008.66 759.229 2996.85 757.357 2985.49 753.566H2985.44Z" fill="#E1E1E1"/>
+  <path d="M3189.2 701.574V757.356H3166.21V701.084L3101.67 595.941H3126.51L3178.51 681.019L3230.74 595.941H3253.73L3189.2 701.53V701.574Z" fill="#E1E1E1"/>
+  <path d="M3298.42 753.566C3287.06 749.821 3278.12 744.916 3271.61 738.941L3280.19 720.971C3286.38 726.5 3294.33 731.004 3303.99 734.437C3313.64 737.915 3323.61 739.61 3333.81 739.61C3347.28 739.61 3357.34 737.336 3363.99 732.788C3370.63 728.239 3373.96 722.22 3373.96 714.684C3373.96 709.155 3372.12 704.651 3368.52 701.218C3364.88 697.74 3360.39 695.109 3355.05 693.281C3349.71 691.453 3342.16 689.357 3332.42 687.039C3320.2 684.14 3310.32 681.197 3302.82 678.299C3295.32 675.401 3288.9 670.897 3283.55 664.833C3278.21 658.769 3275.56 650.564 3275.56 640.264C3275.56 631.658 3277.85 623.9 3282.39 616.988C3286.97 610.077 3293.88 604.548 3303.18 600.401C3312.48 596.254 3323.97 594.158 3337.76 594.158C3347.37 594.158 3356.8 595.407 3366.1 597.859C3375.39 600.312 3383.34 603.834 3390.03 608.472L3382.35 626.932C3375.53 622.651 3368.25 619.351 3360.53 617.122C3352.8 614.892 3345.21 613.778 3337.76 613.778C3324.6 613.778 3314.72 616.186 3308.16 620.912C3301.56 625.683 3298.28 631.837 3298.28 639.372C3298.28 644.901 3300.13 649.405 3303.85 652.838C3307.58 656.316 3312.16 658.992 3317.69 660.909C3323.16 662.826 3330.66 664.877 3340.09 667.018C3352.31 669.916 3362.15 672.859 3369.6 675.757C3377.01 678.7 3383.43 683.115 3388.78 689.134C3394.12 695.109 3396.77 703.18 3396.77 713.346C3396.77 721.819 3394.44 729.533 3389.81 736.533C3385.18 743.534 3378.13 749.063 3368.66 753.121C3359.23 757.178 3347.59 759.229 3333.85 759.229C3321.64 759.229 3309.83 757.357 3298.46 753.566H3298.42Z" fill="#E1E1E1"/>
+</g>
+</svg>
