@@ -531,7 +531,6 @@ body {
       </svg>
       <span class="header-subtitle">CONTENT SYSTEM</span>
     </a>
-    <span class="header-subtitle" style="font-size:12px; letter-spacing:1px;">CONTENT SYSTEM</span>
   </div>
 </header>
 
@@ -667,11 +666,11 @@ function navigate(view, weekNum) {
 function updateBreadcrumb(weekNum) {
   const bc = document.getElementById('breadcrumb-inner');
   if (currentView === 'home') {
-    bc.innerHTML = `<span class="current">Content System</span>`;
+    bc.innerHTML = '';
   } else {
     const week = WEEKS_DATA.find(w => w.week === weekNum);
     bc.innerHTML = `
-      <span class="link" onclick="navigate('home')">Content System</span>
+      <span class="link" onclick="navigate('home')">Home</span>
       <span class="sep">›</span>
       <span class="current">Week ${weekNum} — ${week.theme}</span>
     `;
@@ -686,7 +685,7 @@ function renderHome() {
 
   let html = `
     <div class="fade-in">
-      <h1 class="page-title">Content System</h1>
+      <h1 class="page-title">OnTraq</h1>
       <p class="page-subtitle">
         <span>${totalPosts} posts</span> across <span>${liveWeeks} weeks</span> — organized for review and deployment.
       </p>
