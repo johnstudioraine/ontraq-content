@@ -800,18 +800,32 @@ function downloadImage(svgPath, filename) {
         ctx.drawImage(img, 0, 0, 1080, 1080);
         URL.revokeObjectURL(url);
         canvas.toBlob(function(blob) {
-          const dlUrl = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = dlUrl;
-          a.download = filename + '.png';
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          URL.revokeObjectURL(dlUrl);
+          const file = new File([blob], filename + '.png', { type: 'image/png' });
+          // Mobile: open native share sheet (includes Save Image / Save to Camera Roll)
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            navigator.share({ files: [file] }).catch(function() {
+              // User cancelled — fall back to standard download
+              fileSaveDownload(blob, filename);
+            });
+          } else {
+            // Desktop: standard file download
+            fileSaveDownload(blob, filename);
+          }
         }, 'image/png');
       };
       img.src = url;
     });
+}
+
+function fileSaveDownload(blob, filename) {
+  const dlUrl = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = dlUrl;
+  a.download = filename + '.png';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(dlUrl);
 }
 
 // ─── INIT ───
