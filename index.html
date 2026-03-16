@@ -778,11 +778,37 @@ function getAllCaptions() {
 function copyCaption(btn, index) {
   const captions = getAllCaptions();
   const text = captions[index];
-  navigator.clipboard.writeText(text).then(() => {
+  if (!text) return;
+
+  function showCopied() {
     const indicator = btn.querySelector('.copied-indicator');
-    indicator.classList.add('show');
-    setTimeout(() => indicator.classList.remove('show'), 2000);
-  });
+    if (indicator) {
+      indicator.classList.add('show');
+      setTimeout(() => indicator.classList.remove('show'), 2000);
+    }
+  }
+
+  // Try modern clipboard API first, fall back to execCommand
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(showCopied).catch(function() {
+      fallbackCopy(text);
+      showCopied();
+    });
+  } else {
+    fallbackCopy(text);
+    showCopied();
+  }
+}
+
+function fallbackCopy(text) {
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.left = '-9999px';
+  document.body.appendChild(ta);
+  ta.select();
+  document.execCommand('copy');
+  document.body.removeChild(ta);
 }
 
 function downloadImage(svgPath, filename) {
